@@ -1,0 +1,12 @@
+name
+address
+customer_id
+account_number
+account_type
+photo
+
+
+(   if (!empty($_POST['customer_first_name']) && !empty($_POST['relative_name']) && !empty($_POST['mobile_number']) && !empty($_POST['adhaar_number']) && !empty($_POST['pan_number']) && !empty($_POST['form_number']) && !empty($_FILES['customer_photo']['name'])) {
+        echo "good";
+    }
+} && !empty($_POST['account_number']) && !empty($_POST['account_type'])
